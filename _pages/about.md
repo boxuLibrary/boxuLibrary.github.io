@@ -35,7 +35,7 @@ News
 </style>
 
 <div class="news-container">
-  <p>🚀 <span style="color: red;">[07.2024] One papers <a href="">URS-NeRF</a> is accepted at ECCV 2024!!</span></p>
+  <p>🚀 <span style="color: red;">[07.2024] One paper <a href="">URS-NeRF</a> is accepted at ECCV 2024!!</span></p>
   <p>😎 <span style="color: red;">[10.2023] Joined <a href="https://www.comp.nus.edu.sg/~leegh/">CVRP Lab</a> of NUS as a visiting student!</span></p>
   <!-- <p>🚀 [08.2023] One paper <a href="https://ieeexplore.ieee.org/document/10154545">PVI-DSO</a> is accepted at IEEE Sensors Journal!</p> -->
   <p>🚀 [06.2023] One paper <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/He_A_Rotation-Translation-Decoupled_Solution_for_Robust_and_Efficient_Visual-Inertial_Initialization_CVPR_2023_paper.pdf">DRT-VIO</a> is CVPR 2023!</p>
@@ -80,18 +80,19 @@ Featured Works
 
 
 <div style="display: flex; align-items: center; margin-bottom: 40px;">
-  <img src="images/TreeSBA.gif" alt="TreeSBA: Tree-Transformer for Self-Supervised Sequential Brick Assembly" style="width: 350px; height: auto; margin-right: 20px;">
+  <img src="images/TreeSBA.gif" alt="URS-NeRF: Unordered Rolling Shutter Bundle Adjustment for Neural Radiance Fields" style="width: 350px; height: auto; margin-right: 20px;">
 
   <div>
-    <h3 style="margin: 0;"><a href="projects/TreeSBA/" style="text-decoration: none;">TreeSBA: Tree-Transformer for Self-Supervised Sequential Brick Assembly</a></h3>
+    <h3 style="margin: 0;"><a href="projects/URS-NeRF/" style="text-decoration: none;">URS-NeRF: Unordered Rolling Shutter Bundle Adjustment for Neural Radiance Fields</a></h3>
     <p style="margin: 5px 0;">
-      <strong>Bo Xu*</strong>,
-      <a href="https://chaneyddtt.github.io/">Chen Li*</a>,
-      <a href="https://yuyangzhao.com/">Yuyang Zhao</a>,
+      <strong>Bo Xu</strong>,
+      Ziao Liu,
+      <a href="">Mengqi Guo</a>,
+      Jiancheng Li,
       <a href="https://www.comp.nus.edu.sg/~leegh/">Gim Hee Lee</a>
       <br>
       ECCV, 2024<br>
-      <a href="projects/TreeSBA/" style="text-decoration: none;">[Project Page]</a>
+      <a href="projects/URS-NeRF/" style="text-decoration: none;">[Project Page]</a>
       <!-- <a href="" style="text-decoration: none;">[PDF]</a>
       <a href="" style="text-decoration: none;">[Code]</a> -->
     </p>
