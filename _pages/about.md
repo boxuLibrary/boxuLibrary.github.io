@@ -10,6 +10,11 @@ redirect_from:
   # - /
 ---
 
+
+
+
+
+
 I am a third-year Ph.D. candidate in School of Geodesy and Geomatics at <strong>[Wuhan University](https://www.whu.edu.cn/)</strong>. I am very lucky to be supervised by [Prof. Jiancheng Li](https://hrold.whu.edu.cn/EN/Professors.htm) at Wuhan University. My research interests lie in 3D computer vision, Simultaneous Localization and Mapping (SLAM), Global Navigation Satellite System (GNSS) localization. I was a research intern at JingDong (JD.com, Inc). I got my Bechelor's Degree from [China University of Geosciences Beijing](https://www.cugb.edu.cn/) in 2018, and Master's Degree from [Wuhan University](https://www.whu.edu.cn/) supervised by Prof. Jiancheng Li in 2021. 
 
 
