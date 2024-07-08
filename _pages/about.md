@@ -15,7 +15,7 @@ redirect_from:
 
 
 
-I am a third-year Ph.D. candidate in School of Geodesy and Geomatics at <strong>[Wuhan University](https://www.whu.edu.cn/)</strong>. I am very lucky to be supervised by [Prof. Jiancheng Li](https://hrold.whu.edu.cn/EN/Professors.htm) at Wuhan University. My research interests lie in 3D computer vision, Simultaneous Localization and Mapping (SLAM), Global Navigation Satellite System (GNSS) localization. I was a research intern at JingDong (JD.com, Inc). I got my Bechelor's Degree from [China University of Geosciences Beijing](https://www.cugb.edu.cn/) in 2018, and Master's Degree from [Wuhan University](https://www.whu.edu.cn/) supervised by Prof. Jiancheng Li in 2021. 
+I am a third-year Ph.D. candidate in School of Geodesy and Geomatics at <strong>[Wuhan University](https://www.whu.edu.cn/)</strong>. I am very lucky to be supervised by [Prof. Jiancheng Li](https://hrold.whu.edu.cn/EN/Professors.htm) at Wuhan University. My research interests lie in 3D computer vision, Simultaneous Localization and Mapping (SLAM), Global Navigation Satellite System (GNSS) localization. I was a research intern at JingDong (JD.com, Inc). I got my Bechelor's Degree from [China University of Geosciences Beijing](https://www.cugb.edu.cn/) in 2018, and Master's Degree from [Wuhan University](https://www.whu.edu.cn/) supervised by [Prof. Jiancheng Li](https://hrold.whu.edu.cn/EN/Professors.htm) in 2021. 
 
 
 
@@ -35,10 +35,12 @@ News
 </style>
 
 <div class="news-container">
-  <p>🚀 <span style="color: red;">[07.2024] Three papers <a href="projects/UNIKD/">UNIKD</a> <a href="projects/TreeSBA/">TreeSBA</a> <a href="">URS-NeRF</a> are accepted at ECCV 2024!!</span></p>
-  <p>🚀 [03.2024] One paper <a href="https://arxiv.org/pdf/2310.15712.pdf">GNeSF</a> is accepted at NeurIPS 2023!</p>
-  <p>🚀 [06.2023] One paper <a href="https://www.sciencedirect.com/science/article/pii/S1361841523000312">HeiChole</a> is accepted at Medical Image Analysis 2023!</p>
-  <p>🚀 [06.2022] One paper <a href="https://arxiv.org/pdf/2103.14098">CGPart</a> is accepted at CVPR 2022 (oral)!</p>
+  <p>🚀 <span style="color: red;">[07.2024] One papers <a href="">URS-NeRF</a> is accepted at ECCV 2024!!</span></p>
+  <p>🚀 [08.2023] One paper <a href="https://ieeexplore.ieee.org/document/10154545">PVI-DSO</a> is accepted at IEEE Sensors Journal!</p>
+  <p>🚀 [06.2023] One paper <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/He_A_Rotation-Translation-Decoupled_Solution_for_Robust_and_Efficient_Visual-Inertial_Initialization_CVPR_2023_paper.pdf">DRT-VIO</a> is CVPR 2023!</p>
+  <p>🚀 [06.2022] One paper <a href="https://link.springer.com/article/10.1007/s10291-023-01396-7">EDM Method</a> is accepted at GPS Solutions!</p>
+  <p>🚀 [01.2022] One paper <a href="https://arxiv.org/pdf/2105.04064">PLS-VIO</a> is accepted at ICRA 2022 & RAL!</p>
+
 
   <div id="hidden-news" style="display: none;">
   <p>😎 [08.2021] Joined <a href="https://www.comp.nus.edu.sg/~leegh/">CVRP Lab</a> of NUS as a Ph.D. student!</p>
