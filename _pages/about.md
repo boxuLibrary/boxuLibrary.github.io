@@ -54,7 +54,6 @@ News
   <!-- <p>👨‍🎓 [07.2017] Awarded Outstanding Graduate in <a href="http://www.szsy.cn/">SZSY High School</a>!</p> -->
     <!-- <p>🏆 [15.03.2024] Received the .</p> -->
     <!-- 你可以在这里添加更多隐藏的新闻项 -->
-  </div>
 </div>
 
 <a href="#" class="show-more-link" id="show-more-link">⬇ SHOW MORE ⬇</a>
