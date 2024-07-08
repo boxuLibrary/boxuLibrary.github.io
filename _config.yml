@@ -8,13 +8,13 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Mengqi Guo"
+title                    : "Bo Xu"
 title_separator          : "-"
-name                     : &name "Mengqi Guo"
-description              : &description "Welcome to Mengqi Guo's personal page! I am currently a PhD candidate at National Univeristy of Singapore, working on research related to 3D reconstruction and generation."
-url                      : https://dreamguo.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Bo Xu"
+description              : &description "Welcome to Bo Xu's personal page! I am currently a PhD candidate at National Univeristy of Singapore, working on research related to 3D reconstruction and generation."
+url                      : https://boxuLibrary.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "dreamguo/dreamguo.github.io"
+repository               : "boxuLibrary/boxuLibrary.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -22,17 +22,17 @@ repository               : "dreamguo/dreamguo.github.io"
 author:
   # Biographic information
   avatar           : "mengqi.jpeg"
-  name             : "Mengqi Guo"
+  name             : "Bo Xu"
   pronouns         : # example: "she/her"  
-  bio              : "PhD candidate at National University of Singapore."
-  location         : "NUS, Singapore"
+  bio              : "PhD candidate at Wuhan University."
+  location         : "Wuhan, China"
   employer         : # "National University of Singapore"
   uri              : # URL
-  email            : "mengqi.guo@u.nus.edu" 
+  email            : "boxu1995@whu.edu.cn" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=Qa4BlOoAAAAJ&hl=en"
+  # googlescholar    : "https://scholar.google.com/citations?user=Qa4BlOoAAAAJ&hl=en"  # todo boxu
   impactstory      : # URL
   orcid            : # URL
   semantic         : # URL
@@ -43,7 +43,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "dreamguo"
+  github           : "boxuLibrary"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 

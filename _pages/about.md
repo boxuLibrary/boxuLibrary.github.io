@@ -10,7 +10,8 @@ redirect_from:
   # - /
 ---
 
-I am currently a Ph.D. candidate in the Computer Vision and Robotic Perception (CVRP) laboratory at <strong>National University of Singapore (NUS)</strong>, supervised by [Prof. Gim Hee Lee](https://www.comp.nus.edu.sg/~leegh/). Before entering NUS, I was an research intern in Computational Cognition, Vision, and Learning (CCVL) laboratory at Johns Hopkins University under [Prof. Alan Yuille](https://www.cs.jhu.edu/~ayuille/). I recived my B.S. degree in Computer Science and Technology from ShenYuan Honors College at [Beihang University](https://ev.buaa.edu.cn/) in 2021, advised by [Prof. Si Liu](https://colalab.net/people). My research interests lie in 3D computer vision, especially in sequential 3D reconstruction and generation.
+I am a third-year Ph.D. candidate in School of Geodesy and Geomatics at <strong>[Wuhan University](https://www.whu.edu.cn/)</strong>. I am very lucky to be supervised by [Prof. Jiancheng Li](https://hrold.whu.edu.cn/EN/Professors.htm) at Wuhan University. My research interests lie in 3D computer vision, Simultaneous Localization and Mapping (SLAM), Global Navigation Satellite System (GNSS) localization. I was a research intern at JingDong (JD.com, Inc). I got my Bechelor's Degree from [China University of Geosciences Beijing](https://www.cugb.edu.cn/) in 2018, and Master's Degree from [Wuhan University](https://www.whu.edu.cn/) supervised by Prof. Jiancheng Li in 2021. 
+
 
 
 News
@@ -75,7 +76,7 @@ Featured Works
   <div>
     <h3 style="margin: 0;"><a href="projects/TreeSBA/" style="text-decoration: none;">TreeSBA: Tree-Transformer for Self-Supervised Sequential Brick Assembly</a></h3>
     <p style="margin: 5px 0;">
-      <strong>Mengqi Guo*</strong>,
+      <strong>Bo Xu*</strong>,
       <a href="https://chaneyddtt.github.io/">Chen Li*</a>,
       <a href="https://yuyangzhao.com/">Yuyang Zhao</a>,
       <a href="https://www.comp.nus.edu.sg/~leegh/">Gim Hee Lee</a>
@@ -94,7 +95,7 @@ Featured Works
   <div>
     <h3 style="margin: 0;"><a href="projects/UNIKD/" style="text-decoration: none;">UNIKD: UNcertainty-Filtered Incremental Knowledge Distillation for Neural Implicit Representation</a></h3>
     <p style="margin: 5px 0;">
-      <strong>Mengqi Guo*</strong>,
+      <strong>Bo Xu*</strong>,
       <a href="https://chaneyddtt.github.io/">Chen Li*</a>,
       <a href="https://hlinchen.github.io/">Hanlin Chen</a>,
       <a href="https://www.comp.nus.edu.sg/~leegh/">Gim Hee Lee</a>
@@ -115,7 +116,7 @@ Featured Works
     <p style="margin: 5px 0;">
       <a href="https://hlinchen.github.io/">Hanlin Chen</a>,
       <a href="https://chaneyddtt.github.io/">Chen Li</a>,
-      <strong>Mengqi Guo</strong>,
+      <strong>Bo Xu</strong>,
       <a href="https://jokeryan.github.io/about/">Zhiwen Yan</a>,
       <a href="https://www.comp.nus.edu.sg/~leegh/">Gim Hee Lee</a>
       <br>
@@ -138,7 +139,7 @@ Featured Works
       <a href="https://gvrl.mpi-inf.mpg.de/">Adam Kortylewski</a>,
       <a href="https://scholar.google.com/citations?user=8gRM3xMAAAAJ&hl=en">Zhishuai Zhang</a>,
       <a href="https://kyleleey.github.io/">Zizhang Li</a>,
-      <strong>Mengqi Guo</strong>,
+      <strong>Bo Xu</strong>,
       <a href="https://qihao067.github.io/">Qihao Liu</a>,
       <a href="https://scholar.google.com/citations?user=p7QTY-cAAAAJ&hl=en">Xiaoding Yuan</a>,
       <a href="https://jitengmu.github.io/">Jiteng Mu</a>,
@@ -156,9 +157,9 @@ Featured Works
 Other Publications / Preprints
 ------
 
-- **Mengqi Guo**, Yutong Bai, Zhishuai Zhang, Adam Kortylewski, Alan Yuille. [Unsupervised Part Discovery via Feature Alignment](https://arxiv.org/pdf/2012.00313). ArXiv.
+- **Bo Xu**, Yutong Bai, Zhishuai Zhang, Adam Kortylewski, Alan Yuille. [Unsupervised Part Discovery via Feature Alignment](https://arxiv.org/pdf/2012.00313). ArXiv.
 
-- Martin Wagner, …, **Mengqi Guo**, …, Sebastian Bodenstedt. [Comparative validation of machine learning algorithms for surgical workflow and skill analysis with the heichole benchmark](https://www.sciencedirect.com/science/article/pii/S1361841523000312). Medical Image Analysis (MedIA), 2023 [[Dataset](https://endovissub-workflowandskill.grand-challenge.org/)]
+- Martin Wagner, …, **Bo Xu**, …, Sebastian Bodenstedt. [Comparative validation of machine learning algorithms for surgical workflow and skill analysis with the heichole benchmark](https://www.sciencedirect.com/science/article/pii/S1361841523000312). Medical Image Analysis (MedIA), 2023 [[Dataset](https://endovissub-workflowandskill.grand-challenge.org/)]
 
 
 <div style="width: 100px; height: 100px; display: block; align-items: center; margin-top: 40px; margin-bottom: 40px;">
