@@ -36,7 +36,7 @@ News
 
 <div class="news-container">
   <p>🚀 <span style="color: red;">[07.2024] One papers <a href="">URS-NeRF</a> is accepted at ECCV 2024!!</span></p>
-  <p>😎 <span style="color: red;">[10.2023] Joined <a href="https://www.comp.nus.edu.sg/~leegh/">CVRP Lab</a> of NUS as a visiting student!</p>
+  <p>😎 <span style="color: red;">[10.2023] Joined <a href="https://www.comp.nus.edu.sg/~leegh/">CVRP Lab</a> of NUS as a visiting student!</span></p>
   <p>🚀 [08.2023] One paper <a href="https://ieeexplore.ieee.org/document/10154545">PVI-DSO</a> is accepted at IEEE Sensors Journal!</p>
   <p>🚀 [06.2023] One paper <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/He_A_Rotation-Translation-Decoupled_Solution_for_Robust_and_Efficient_Visual-Inertial_Initialization_CVPR_2023_paper.pdf">DRT-VIO</a> is CVPR 2023!</p>
   <p>🚀 [06.2022] One paper <a href="https://link.springer.com/article/10.1007/s10291-023-01396-7">EDM Method</a> is accepted at GPS Solutions!</p>
@@ -54,6 +54,7 @@ News
   <!-- <p>👨‍🎓 [07.2017] Awarded Outstanding Graduate in <a href="http://www.szsy.cn/">SZSY High School</a>!</p> -->
     <!-- <p>🏆 [15.03.2024] Received the .</p> -->
     <!-- 你可以在这里添加更多隐藏的新闻项 -->
+  </div>
 </div>
 
 <a href="#" class="show-more-link" id="show-more-link">⬇ SHOW MORE ⬇</a>
