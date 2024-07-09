@@ -47,7 +47,7 @@ News
   <p>🙇 [09.2020] Joined <a href="https://corporate.jd.com/">JingDong</a> as a research intern!</p>
   <p>👨‍🎓 [07.2018] Awarded Outstanding Graduate in <a href="https://www.cugb.edu.cn/">China University of Geosciences Beijing</a>!</p>
   
- 
+  
   <!-- <p>🙇 [10.2019] Joined <a href="https://en.megvii.com/megvii_research">MEGVII Research</a> as a 3D vision research intern!</p> -->
   <!-- <p>🙇 [06.2019] Joined <a href="http://www.vie.group/team">VIE Lab</a> at PKU as a research intern!</p> -->
   <!-- <p>😎 [09.2017] Joined <a href="https://hc.buaa.edu.cn/">ShenYuan Honors College</a> at Beihang University as an undergraduate!</p> -->
@@ -85,7 +85,7 @@ Featured Works
   <div>
     <h3 style="margin: 0;"><a href="projects/URS-NeRF/" style="text-decoration: none;">URS-NeRF: Unordered Rolling Shutter Bundle Adjustment for Neural Radiance Fields</a></h3>
     <p style="margin: 5px 0;">
-      <strong>Bo Xu</strong>,
+      <a href="https://boxuLibrary.github.io/"><strong>Bo Xu</strong></a>,,
       Ziao Liu,
       <a href="">Mengqi Guo</a>,
       Jiancheng Li,
@@ -100,18 +100,20 @@ Featured Works
 </div>
 
 <div style="display: flex; align-items: center; margin-bottom: 40px;">
-  <img src="images/UNIKD.gif" alt="UNIKD: UNcertainty-Filtered Incremental Knowledge Distillation for Neural Implicit Representation" style="width: 350px; height: auto; margin-right: 20px;">
+  <img src="images/UNIKD.gif" alt="A Rotation-Translation-Decoupled Solution for Robust and Efficient
+Visual-Inertial Initialization" style="width: 350px; height: auto; margin-right: 20px;">
 
   <div>
-    <h3 style="margin: 0;"><a href="projects/UNIKD/" style="text-decoration: none;">UNIKD: UNcertainty-Filtered Incremental Knowledge Distillation for Neural Implicit Representation</a></h3>
+    <h3 style="margin: 0;"><a href="projects/DRTVIO/" style="text-decoration: none;">A Rotation-Translation-Decoupled Solution for Robust and Efficient
+Visual-Inertial Initialization</a></h3>
     <p style="margin: 5px 0;">
-      <strong>Bo Xu*</strong>,
-      <a href="https://chaneyddtt.github.io/">Chen Li*</a>,
-      <a href="https://hlinchen.github.io/">Hanlin Chen</a>,
-      <a href="https://www.comp.nus.edu.sg/~leegh/">Gim Hee Lee</a>
+      <a href="https://chaneyddtt.github.io/">Yijia He*</a>,
+      <a href="https://boxuLibrary.github.io/"><strong>Bo Xu</strong>*</a>,
+      <a href="https://hlinchen.github.io/">Zhanpeng Ouyang</a>,
+      <a href="https://scholar.google.com.sg/citations?hl=zh-CN&user=Mq89JAcAAAAJ">Hongdong Li</a>
       <br>
-      ECCV, 2024<br>
-      <a href="projects/UNIKD/" style="text-decoration: none;">[Project Page]</a>
+      CVPR, 2023<br>
+      <a href="projects/DRTVIO/" style="text-decoration: none;">[Project Page]</a>
       <!-- <a href="" style="text-decoration: none;">[PDF]</a>
       <a href="" style="text-decoration: none;">[Code]</a> -->
     </p>
@@ -119,59 +121,88 @@ Featured Works
 </div>
 
 <div style="display: flex; align-items: center; margin-bottom: 40px;">
-  <img src="images/GNeSF.jpg" alt="GNeSF: Generalizable Neural Semantic Fields" style="width: 350px; height: auto; margin-right: 20px;">
+  <img src="images/GNeSF.jpg" alt="A unified cycle-slip, multipath estimation, detection and mitigation method for VIO-aided PPP in urban environments" style="width: 350px; height: auto; margin-right: 20px;">
 
   <div>
-    <h3 style="margin: 0;"><a href="https://arxiv.org/pdf/2310.15712.pdf" style="text-decoration: none;">GNeSF: Generalizable Neural Semantic Fields</a></h3>
+    <h3 style="margin: 0;"><a href="https://link.springer.com/article/10.1007/s10291-023-01396-7" style="text-decoration: none;">A unified cycle-slip, multipath estimation, detection and mitigation method for VIO-aided PPP in urban environments</a></h3>
     <p style="margin: 5px 0;">
-      <a href="https://hlinchen.github.io/">Hanlin Chen</a>,
-      <a href="https://chaneyddtt.github.io/">Chen Li</a>,
-      <strong>Bo Xu</strong>,
-      <a href="https://jokeryan.github.io/about/">Zhiwen Yan</a>,
-      <a href="https://www.comp.nus.edu.sg/~leegh/">Gim Hee Lee</a>
+      <a href="https://boxuLibrary.github.io/"><strong>Bo Xu</strong></a>,
+      Shoujian Zhang,
+      Kaifa Kuang,
+      Xingxing Li,
       <br>
-      NeurIPS, 2023<br>
-      <a href="https://hlinchen.github.io/projects/VCR-GauS/" style="text-decoration: none;">[Project Page]</a>
-      <a href="https://arxiv.org/pdf/2310.15712.pdf" style="text-decoration: none;">[PDF]</a>
-      <a href="https://github.com/HLinChen/GNeSF" style="text-decoration: none;">[Code]</a>
+      GPS Solutions<br>
+      <!-- <a href="https://hlinchen.github.io/projects/VCR-GauS/" style="text-decoration: none;">[Project Page]</a> -->
+      <a href="https://link.springer.com/article/10.1007/s10291-023-01396-7" style="text-decoration: none;">[PDF]</a>
+      <!-- <a href="https://github.com/HLinChen/GNeSF" style="text-decoration: none;">[Code]</a> -->
     </p>
   </div>
 </div>
 
 
 <div style="display: flex; align-items: center; margin-bottom: 40px;">
-  <img src="images/cgpart.jpg" alt="Learning Part Segmentation Through Unsupervised Domain Adaptation from Synthetic Vehicles." style="width: 350px; height: auto; margin-right: 20px;">
+  <img src="images/cgpart.jpg" alt="PVI-DSO: Leveraging Planar Regularities for Direct Sparse Visual-Inertial Odometry" style="width: 350px; height: auto; margin-right: 20px;">
 
   <div>
-    <h3 style="margin: 0;"><a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Liu_Learning_Part_Segmentation_Through_Unsupervised_Domain_Adaptation_From_Synthetic_Vehicles_CVPR_2022_paper.pdf" style="text-decoration: none;">Learning Part Segmentation Through Unsupervised Domain Adaptation from Synthetic Vehicles</a></h3>
+    <h3 style="margin: 0;"><a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Liu_Learning_Part_Segmentation_Through_Unsupervised_Domain_Adaptation_From_Synthetic_Vehicles_CVPR_2022_paper.pdf" style="text-decoration: none;">PVI-DSO: Leveraging Planar Regularities for Direct Sparse Visual-Inertial Odometry</a></h3>
     <p style="margin: 5px 0;">
-      <a href="https://qliu24.github.io/">Qing Liu</a>,
-      <a href="https://gvrl.mpi-inf.mpg.de/">Adam Kortylewski</a>,
-      <a href="https://scholar.google.com/citations?user=8gRM3xMAAAAJ&hl=en">Zhishuai Zhang</a>,
-      <a href="https://kyleleey.github.io/">Zizhang Li</a>,
-      <strong>Bo Xu</strong>,
-      <a href="https://qihao067.github.io/">Qihao Liu</a>,
-      <a href="https://scholar.google.com/citations?user=p7QTY-cAAAAJ&hl=en">Xiaoding Yuan</a>,
-      <a href="https://jitengmu.github.io/">Jiteng Mu</a>,
-      <a href="https://scholar.google.com.hk/citations?user=9_AUwFUAAAAJ&hl=zh-TW">Weichao Qiu</a>,
-      <a href="https://www.cs.jhu.edu/~ayuille/">Alan Yuille</a>,
+      <a href="https://boxuLibrary.github.io/"><strong>Bo Xu</strong></a>,
+      <a href="">Xin Li</a>,
+      <a href="">Jingrong Wang</a>,
+      <a href="">Chau Yue</a>,
+      <a href="">Jiancheng Li</a>,
       <br>
-      CVPR, 2022 (Oral)<br>
-      <a href="https://qliu24.github.io/udapart/" style="text-decoration: none;">[Project Page]</a>
-      <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Liu_Learning_Part_Segmentation_Through_Unsupervised_Domain_Adaptation_From_Synthetic_Vehicles_CVPR_2022_paper.pdf" style="text-decoration: none;">[PDF]</a>
+      IEEE Sensors Journal<br>
+       <a href="https://github.com/boxuLibrary/PVI-DSO-SIM" style="text-decoration: none;">[Code]</a>
+      <!-- <a href="https://qliu24.github.io/udapart/" style="text-decoration: none;">[Project Page]</a> -->
+      <a href="https://arxiv.org/abs/2204.02635" style="text-decoration: none;">[PDF]</a>
     </p>
   </div>
 </div>
 
 
+
+<div style="display: flex; align-items: center; margin-bottom: 40px;">
+  <img src="images/cgpart.jpg" alt="Leveraging Structural Information to Improve Point Line Visual-Inertial Odometry" style="width: 350px; height: auto; margin-right: 20px;">
+
+  <div>
+    <h3 style="margin: 0;"><a href="https://arxiv.org/abs/2105.04064" style="text-decoration: none;">Leveraging Structural Information to Improve Point Line Visual-Inertial Odometry</a></h3>
+    <p style="margin: 5px 0;">
+      <a href="https://boxuLibrary.github.io/"><strong>Bo Xu</strong></a>,
+      Peng Wang,
+      Yijia He,
+      Yu Chen,
+      Yongnan Chen,
+      Ming Zhou,
+      <br>
+      ICRA 2022 & RAL<br>
+       <a href="https://github.com/boxuLibrary/Structural-and-Non-structural-line" style="text-decoration: none;">[Code]</a>
+      <!-- <a href="https://qliu24.github.io/udapart/" style="text-decoration: none;">[Project Page]</a> -->
+      <a href="https://arxiv.org/abs/2105.04064" style="text-decoration: none;">[PDF]</a>
+    </p>
+  </div>
+</div>
+
+
+
+
 Other Publications / Preprints
 ------
 
-- **Bo Xu**, Yutong Bai, Zhishuai Zhang, Adam Kortylewski, Alan Yuille. [Unsupervised Part Discovery via Feature Alignment](https://arxiv.org/pdf/2012.00313). ArXiv.
+- Yu Chen, **Bo Xu**, Bin Wang, Jiaming Na, Pei Yang [GNSS Reconstrainted Visual–Inertial Odometry System Using Factor Graphs](https://ieeexplore.ieee.org/document/10016469). IEEE Geoscience and Remote Sensing Letters.
 
-- Martin Wagner, …, **Bo Xu**, …, Sebastian Bodenstedt. [Comparative validation of machine learning algorithms for surgical workflow and skill analysis with the heichole benchmark](https://www.sciencedirect.com/science/article/pii/S1361841523000312). Medical Image Analysis (MedIA), 2023 [[Dataset](https://endovissub-workflowandskill.grand-challenge.org/)]
+- Jingrong Wang, Jingnan Liu, Shoujian Zhang, **Bo Xu**, Yarong Luo and Ronghe Jin [Sky-view images aided NLOS detection and suppression for tightly coupled GNSS/INS system in urban canyon areas](). Measurement Science and Technology.
 
+- **Bo Xu**, Shoujian Zhang, Jingrong Wang, Jiancheng Li [An innovation-based cycle-slip, multipath
+estimation, detection and mitigation method for
+tightly coupled GNSS/INS/Vision navigation in
+urban areas](). ArXiv.
+
+
+- Jingrong Wang, **Bo Xu**, Ronghe Jin, Shoujian Zhang, Kefu Gao, Jingnan Liu [Sky-GVIO: an enhanced GNSS/INS/Vision navigation with FCN-based sky-segmentation in urban canyon](https://arxiv.org/abs/2404.11070). ArXiv.
+
+- Zewen Xu, Yijia He, Hao Wei, **Bo Xu**, BinJian Xie, Yihong Wu [An Accurate and Real-time Relative Pose Estimation from Triple Point-line Images by Decoupling Rotation and Translation](https://arxiv.org/abs/2403.11639). ArXiv.
 
 <div style="width: 100px; height: 100px; display: block; align-items: center; margin-top: 40px; margin-bottom: 40px;">
-  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=76q_kvp9C9IdUxxL6culGaZYcQGVaYsIH-LMQGUf1uU =10x10"></script>
+  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=lftFrm-MMWTRUWnwlg-Gxcpkjk-LZP23KerLj0iEi6g"></script>
 </div>

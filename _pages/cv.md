@@ -11,8 +11,9 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Computer Science, National University of Singapore, 2025 (expected)
-* B.S. in Computer Science and Technology, Beihang University, 2021
+* Ph.D in Geodesy and Survey Engineering, Wuhan University, 2025 (expected)
+* M.S in Geodesy and Survey Engineering, Wuhan University, 2021 
+* B.S. in Geomatics Engineering, China University of Geosciences Beijing, 2018
 
 <!-- Work experience
 ======
@@ -32,7 +33,7 @@ Skills
 * Programming Languages:
   * Python
   * C/C++
-  * matlab
+
 
 * Technologies and Frameworks:
   * Pytorch
@@ -41,11 +42,11 @@ Skills
 
 Contact
 ======
-Institution: National University of Singapore
+Institution: Wuhan University
 
 <!-- **Address**: Room 1126, New Main Building #E, XueYuan Road No.37, Beihang University, 100191 -->
 
-E-mail: [mengqi.guo@u.nus.edu](mailto:mengqi.guo@u.nus.edu) or [im.guomengqi@gmai.com](mailto:im.guomengqi@gmai.com) 
+E-mail: [boxu1995@whu.edu.cn](boxu1995@whu.edu.cn) or [xubo95.xu@gamil.com](xubo95.xu@gamil.com) 
 
 
 <!-- Publications
