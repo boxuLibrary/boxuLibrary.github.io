@@ -81,15 +81,15 @@
             </span>&nbsp;&nbsp;&nbsp;&nbsp;
 
             <span class="author-block">
-              <a href="https://chaneyddtt.github.io/">Ziao Liu</a><sup></sup>
+              <a href="">Ziao Liu</a><sup></sup>
             </span>&nbsp;&nbsp;&nbsp;&nbsp;
 
             <span class="author-block">
-              <a href="https://yuyangzhao.com/">Mengqi Guo</a><sup></sup>
+              <a href="https://dreamguo.github.io">Mengqi Guo</a><sup></sup>
             </span>&nbsp;&nbsp;&nbsp;&nbsp;
 
             <span class="author-block">
-              <a href="https://yuyangzhao.com/">Jiancheng Li</a><sup></sup>
+              <a href="">Jiancheng Li</a><sup></sup>
             </span>&nbsp;&nbsp;&nbsp;&nbsp;
 
             <span class="author-block">
@@ -165,9 +165,10 @@
     <div class="hero-body">
       <div class="columns is-centered has-text-centered">
         <div class="column is-full-width">
-          <img src="./resources/teaser.png" style="transform: scale(1.);" class="center">
+          <img src="./resources/URS-NeRF.png" style="transform: scale(1.);" class="center">
           <h2 class="subtitle" style="margin-top: 25px; text-align: left;">
-            Example of self-supervised sequential brick assembly. The 3D object is assembled from LEGO bricks based on the predicted sequence of actions.
+            Example of our different NeRF BA settings.  (a) BARF  works on unordered global shutter (GS) images, but is unsuitable for images with rolling shutter distortions. (b) USB-NeRF requires the input to be strictly sequential video
+            frames, which lacks the generality in BA. (c) Our method works on unordered images with rolling shutter distortion.
           </h2>
         </div>
       </div>
@@ -176,20 +177,8 @@
 </section>
 
 
-<section class="section">
-  <div class="container is-max-desktop">
 
-    <div class="columns is-centered ">
-      <div class="column is-full-width">
-        <h2 class="title is-3 has-text-centered" style="margin-top: 00px">Sequential Brick Assembly Demo</h2>
-        <video poster="" id="Assembly_Airplane" autoplay controls muted loop playsinline height="100%">
-          <source src="./resources/Assembly_Airplane.mp4"
-                  type="video/mp4">
-        </video>
-      </div>
-    </div>
-  </div>
-</section>
+
 
 <section class="section">
   <div class="container is-max-desktop">
@@ -199,8 +188,31 @@
         <h2 class="title is-3" style="margin-top: -30px">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Inferring step-wise actions to assemble 3D objects with primitive bricks from images is a challenging task due to complex constraints and the vast number of possible combinations. Recent studies have demonstrated promising results on sequential LEGO brick assembly through the utilization of LEGO-Graph modeling to predict sequential actions. However, existing approaches are class-specific and require significant computational and 3D annotation resources.
-            In this work, we first propose a computationally efficient breadth-first search (BFS) LEGO-Tree structure to model the sequential assembly actions by considering connections between consecutive layers. Based on the LEGO-Tree structure, we then design a class-agnostic tree-transformer framework to predict the sequential assembly actions from the input multi-view images. A major challenge of the sequential brick assembly task is that the step-wise action labels are costly and tedious to obtain in practice. We mitigate this problem by leveraging synthetic-to-real transfer learning. Specifically, our model is first pre-trained on synthetic data with full supervision from the available action labels. We then circumvent the requirement for action labels in the real data by proposing an action-to-silhouette projection that replaces action labels with input image silhouettes for self-supervision. Without any annotation on the real data, our model outperforms existing methods with 3D supervision by 7.8% and 11.3% in mIoU on the MNIST and ModelNet Construction datasets, respectively.
+We propose a novel rolling shutter bundle adjustment method for neural radiance fields (NeRF), which utilizes the unordered rolling shutter (RS) images to obtain the implicit 3D representation. Existing NeRF methods suffer from low-quality images and inaccurate initial camera poses due to the RS effect in the image, whereas, the previous method
+that incorporates the RS into NeRF requires strict sequential data input, limiting its widespread applicability. In constant, our method recovers
+the physical formation of RS images by estimating camera poses and velocities, thereby removing the input constraints on sequential data.
+Moreover, we adopt a coarse-to-fine training strategy, in which the RS epipolar constraints of the pairwise frames in the scene graph are used to
+detect the camera poses that fall into local minima. The poses detected as outliers are corrected by the interpolation method with neighboring
+poses. The experimental results validate the effectiveness of our method over state-of-the-art works and demonstrate that the reconstruction of
+3D representations is not constrained by the requirement of video sequence input.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered ">
+      <div class="column is-full-width">
+        <h2 class="title is-3 has-text-centered" style="margin-top: -30px">Motivation</h2>
+        <img src="./resources/rollling_shutter_effect.png" style="transform: scale(1.);" class="center">
+        <div class="content has-text-justified">
+          <p>
+            Illustration of the LEGO-Tree model and action reordering data augmentation. Node number represents the index of action in the sequence and the index of brick in the tree. (a) shows a BFS LEGO-Tree (solid line) generated from a LEGO-Graph (dotted line). (b) is an action-reordering augmented sample of (a).
           </p>
         </div>
       </div>
@@ -249,68 +261,78 @@
 </section> -->
 
 
+
 <section class="section">
   <div class="container is-max-desktop">
-    <div class="columns is-centered ">
-      <div class="column is-full-width">
-        <h2 class="title is-3 has-text-centered" style="margin-top: -30px">Motivation</h2>
-        <img src="./resources/LEGO_Tree.png" style="transform: scale(1.);" class="center">
-        <div class="content has-text-justified">
-          <p>
-            Illustration of the LEGO-Tree model and action reordering data augmentation. Node number represents the index of action in the sequence and the index of brick in the tree. (a) shows a BFS LEGO-Tree (solid line) generated from a LEGO-Graph (dotted line). (b) is an action-reordering augmented sample of (a).
-          </p>
+    <h2 class="title is-3 has-text-centered" style="margin-top: 0px"> Qualitative comparisons of USB-NeRF and our method. </h2>
+    <div class="columns is-centered">
+      <div class="column is-half">
+        <div class="tab">
+          <div class="tab-content">
+              <div id="imageSliderScreenshotDiv" style="padding: 10px 10px 10px 10px;">
+                  <div class="b-dics" style="width: 100%">
+                      <img src="resources/comp-urs-nerf1.jpg" alt="Rolling Shutter images">
+                      <img src="resources/comp-urs-nerf2.jpg" alt="USB-NeRF">
+                      <img src="resources/comp-urs-nerf3.jpg" alt="Ours">
+                  </div>
+              </div>
+          </div>
         </div>
+      </div>
+
+
+      <div class="column is-half">
+        <div class="tab">
+          <div class="tab-content">
+              <div id="imageSliderScreenshotDiv" style="padding: 10px 10px 10px 10px;">
+                  <div class="b-dics" style="width: 100%">
+                      <img src="resources/comp-urs-nerf1.jpg" alt="Rolling Shutter images">
+                      <img src="resources/comp-urs-nerf2.jpg" alt="USB-NeRF">
+                      <img src="resources/comp-urs-nerf3.jpg" alt="Ours">
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+          <!-- Description below the images -->
+          <div class="columns is-centered">
+            <div class="column is-full">
+              <h2 class="subtitle" style="margin-top: 25px; text-align: left;">
+                Example of our different NeRF BA settings. (a) BARF works on unordered global shutter (GS) images, but is unsuitable for images with rolling shutter distortions. 
+                (b) USB-NeRF requires the input to be strictly sequential video frames, which lacks the generality in BA. 
+                (c) Our method works on unordered images with rolling shutter distortion.
+              </h2>
+            </div>
+          </div>
+  </div>
+
+</section>
+
+
+
+
+ <section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered" style="margin-top: 0px">Different degree of RS effects generation</h2>
+    <div class="columns is-centered">
+      <div class="column is-half">
+        <video poster="" id="/URS-NeRF_1" autoplay controls muted loop playsinline height="100%">
+          <source src="./resources/URS-NeRF.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="column is-half">
+        <video poster="" id="/URS-NeRF_2" autoplay controls muted loop playsinline height="100%">
+          <source src="./resources//URS-NeRF.mp4" type="video/mp4">
+        </video>
       </div>
     </div>
   </div>
 </section>
 
-<section class="section">
-  <div class="container is-max-desktop">
 
-    <!-- Framework. -->
-    <div class="columns is-centered ">
-      <div class="column is-full-width">
-        <h2 class="title is-3 has-text-centered" style="margin-top: -30px">Framework</h2>
 
-        <img src="./resources/framework.png" style="transform: scale(1.);" class="center">
-        <div class="content has-text-justified">
-          <p>
-            Overview of our two-stage framework that consists of a pre-training stage and a self-training stage. In the pre-training stage, we use an image encoder to extract the image features, which are fed into a brick decoder to estimate the action sequence. The estimated actions are supervised with ground truth action labels. In the self-training stage, we use voxelization and projection modules to transfer action probabilities into pixel probabilities such that the model can be self-supervised with the input images.
-          </p>
-        </div>
-        
-        <img src="./resources/projection.png" style="transform: scale(1.);" class="center">
-        <div class="content has-text-justified">
-          <p>
-            An example to illustrate the silhouette self-training with the input images $I$. Given the action probabilities $P^A=[p_0,p_1,p_2]$, a 4-step approach is used to compute the pixel probabilities $P^I=[p^I_0,p^I_1,p^I_2]$.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Results. -->
-    <div class="columns is-centered ">
-      <div class="column is-full-width">
-        <h2 class="title is-3 has-text-centered" style="margin-top: 30px">Results</h2>
-
-        <img src="./resources/result_main.png" style="transform: scale(1.);" class="center">
-        <div class="content has-text-justified">
-          <p>
-            Visualization of the assembled objects in the ModelNet40-C. 'Ours-SP' is the result of the model only with pre-training.
-          </p>
-        </div>
-        
-        <img src="./resources/result_ablation.png" style="transform: scale(1.);" class="center">
-        <div class="content has-text-justified">
-          <p>
-            Visual comparison of baselines, brick number, brick size.
-          </p>
-        </div>
-      </div>
-    </div>
-
-  </div>
 
 </section>
 
@@ -327,15 +349,7 @@
   </div>
 </section>
 
-<!-- <section class="section" id="Acknowledgements">
-  <div class="container is-max-desktop content">
-    <h2 class="title">Acknowledgements</h2>
-    We thank Christian Reiser for insightful discussions and valuable feedback throughout the project.
-    We also thank Binbin Huang for proofreading. 
-    ZY and AG are supported by the ERC Starting Grant LEGO-3D (850533) and DFG EXC number 2064/1 - project number 390727645.
-    TS is supported by a Czech Science Foundation (GACR) EXPRO grant (UNI-3D, grant no. 23-07973X).
-  </div>
-</section> -->
+
 
 <section class="section" id="References">
   <div class="container is-max-desktop content">
@@ -383,3 +397,20 @@
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -80,7 +80,7 @@ Featured Works
 
 
 <div style="display: flex; align-items: center; margin-bottom: 40px;">
-  <img src="images/TreeSBA.gif" alt="URS-NeRF: Unordered Rolling Shutter Bundle Adjustment for Neural Radiance Fields" style="width: 350px; height: auto; margin-right: 20px;">
+  <img src="images/URS-NeRF1.gif" alt="URS-NeRF: Unordered Rolling Shutter Bundle Adjustment for Neural Radiance Fields" style="width: 350px; height: 100p; margin-right: 20px;">
 
   <div>
     <h3 style="margin: 0;"><a href="projects/URS-NeRF/" style="text-decoration: none;">URS-NeRF: Unordered Rolling Shutter Bundle Adjustment for Neural Radiance Fields</a></h3>
@@ -93,14 +93,14 @@ Featured Works
       <br>
       ECCV, 2024<br>
       <a href="projects/URS-NeRF/" style="text-decoration: none;">[Project Page]</a>
-      <!-- <a href="" style="text-decoration: none;">[PDF]</a>
-      <a href="" style="text-decoration: none;">[Code]</a> -->
+      <a href="https://arxiv.org/pdf/2403.10119" style="text-decoration: none;">[PDF]</a>
+      <a href="" style="text-decoration: none;">[Code]</a>
     </p>
   </div>
 </div>
 
 <div style="display: flex; align-items: center; margin-bottom: 40px;">
-  <img src="images/UNIKD.gif" alt="A Rotation-Translation-Decoupled Solution for Robust and Efficient
+  <img src="images/DRT_VIO.png" alt="A Rotation-Translation-Decoupled Solution for Robust and Efficient
 Visual-Inertial Initialization" style="width: 350px; height: auto; margin-right: 20px;">
 
   <div>
@@ -113,15 +113,15 @@ Visual-Inertial Initialization</a></h3>
       <a href="https://scholar.google.com.sg/citations?hl=zh-CN&user=Mq89JAcAAAAJ">Hongdong Li</a>
       <br>
       CVPR, 2023<br>
-      <a href="projects/DRTVIO/" style="text-decoration: none;">[Project Page]</a>
-      <!-- <a href="" style="text-decoration: none;">[PDF]</a>
-      <a href="" style="text-decoration: none;">[Code]</a> -->
+      <!-- <a href="projects/DRTVIO/" style="text-decoration: none;">[Project Page]</a> -->
+      <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/He_A_Rotation-Translation-Decoupled_Solution_for_Robust_and_Efficient_Visual-Inertial_Initialization_CVPR_2023_paper.pdf" style="text-decoration: none;">[PDF]</a>
+      <a href="https://github.com/boxuLibrary/drt-vio-init" style="text-decoration: none;">[Code]</a>
     </p>
   </div>
 </div>
 
 <div style="display: flex; align-items: center; margin-bottom: 40px;">
-  <img src="images/GNeSF.jpg" alt="A unified cycle-slip, multipath estimation, detection and mitigation method for VIO-aided PPP in urban environments" style="width: 350px; height: auto; margin-right: 20px;">
+  <img src="images/EDM.png" alt="A unified cycle-slip, multipath estimation, detection and mitigation method for VIO-aided PPP in urban environments" style="width: 350px; height: auto; margin-right: 20px;">
 
   <div>
     <h3 style="margin: 0;"><a href="https://link.springer.com/article/10.1007/s10291-023-01396-7" style="text-decoration: none;">A unified cycle-slip, multipath estimation, detection and mitigation method for VIO-aided PPP in urban environments</a></h3>
@@ -141,7 +141,7 @@ Visual-Inertial Initialization</a></h3>
 
 
 <div style="display: flex; align-items: center; margin-bottom: 40px;">
-  <img src="images/cgpart.jpg" alt="PVI-DSO: Leveraging Planar Regularities for Direct Sparse Visual-Inertial Odometry" style="width: 350px; height: auto; margin-right: 20px;">
+  <img src="images/PVI-DSO.gif" alt="PVI-DSO: Leveraging Planar Regularities for Direct Sparse Visual-Inertial Odometry" style="width: 350px; height: auto; margin-right: 20px;">
 
   <div>
     <h3 style="margin: 0;"><a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Liu_Learning_Part_Segmentation_Through_Unsupervised_Domain_Adaptation_From_Synthetic_Vehicles_CVPR_2022_paper.pdf" style="text-decoration: none;">PVI-DSO: Leveraging Planar Regularities for Direct Sparse Visual-Inertial Odometry</a></h3>
@@ -163,7 +163,7 @@ Visual-Inertial Initialization</a></h3>
 
 
 <div style="display: flex; align-items: center; margin-bottom: 40px;">
-  <img src="images/cgpart.jpg" alt="Leveraging Structural Information to Improve Point Line Visual-Inertial Odometry" style="width: 350px; height: auto; margin-right: 20px;">
+  <img src="images/PLS-VIO.png" alt="Leveraging Structural Information to Improve Point Line Visual-Inertial Odometry" style="width: 350px; height: auto; margin-right: 20px;">
 
   <div>
     <h3 style="margin: 0;"><a href="https://arxiv.org/abs/2105.04064" style="text-decoration: none;">Leveraging Structural Information to Improve Point Line Visual-Inertial Odometry</a></h3>
