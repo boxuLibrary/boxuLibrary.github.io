@@ -212,7 +212,10 @@ poses. The experimental results validate the effectiveness of our method over st
         <img src="./resources/rollling_shutter_effect.png" style="transform: scale(1.);" class="center">
         <div class="content has-text-justified">
           <p>
-            Illustration of the LEGO-Tree model and action reordering data augmentation. Node number represents the index of action in the sequence and the index of brick in the tree. (a) shows a BFS LEGO-Tree (solid line) generated from a LEGO-Graph (dotted line). (b) is an action-reordering augmented sample of (a).
+            (a) Image formation models of a RS camera (top) and a GS camera (bottom).
+            (b) Final image shapes of different motion modes for RS camera. It demonstrates that
+            each row of a rolling shutter image is captured at different timestamps, and would thus
+            lead to different image distortions if the image is captured by a moving camera.
           </p>
         </div>
       </div>
@@ -300,9 +303,6 @@ poses. The experimental results validate the effectiveness of our method over st
           <div class="columns is-centered">
             <div class="column is-full">
               <h2 class="subtitle" style="margin-top: 25px; text-align: left;">
-                Example of our different NeRF BA settings. (a) BARF works on unordered global shutter (GS) images, but is unsuitable for images with rolling shutter distortions. 
-                (b) USB-NeRF requires the input to be strictly sequential video frames, which lacks the generality in BA. 
-                (c) Our method works on unordered images with rolling shutter distortion.
               </h2>
             </div>
           </div>
@@ -349,9 +349,9 @@ poses. The experimental results validate the effectiveness of our method over st
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{Guo2024TreeSBA,
-  author    = {Guo, Mengqi and Li, Chen and Zhao, Yuyang and Lee, Gim Hee},
-  title     = {TreeSBA: Tree-Transformer for Self-Supervised Sequential Brick Assembly},
+    <pre><code>@article{Xu2024URSNeRF,
+  author    = {Bo Xu, Ziao Liu, Mengqi Guo, Jiancheng Li, Gim Hee Lee},
+  title     = {URS-NeRF: Unordered Rolling Shutter Bundle Adjustment for Neural Radiance Fields},
   journal   = {European Conference on Computer Vision (ECCV)},
   year      = {2024},
 }</code></pre>
@@ -367,13 +367,13 @@ poses. The experimental results validate the effectiveness of our method over st
         <div class="content has-text-justified">
           <ul>
             <li>
-              <a href="https://github.com/POSTECH-CVLab/Brick-by-Brick" target="_blank">
-                Brick-by-Brick: Combinatorial Construction with Deep Reinforcement Learning</a>
+              <a href="https://github.com/wbhu/Tri-MipRF" target="_blank">
+                Tri-MipRF: Tri-Mip Representation for Efficient Anti-Aliasing Neural Radiance Fields</a>
             </li>
 
             <li>
-              <a href="https://github.com/POSTECH-CVLab/Combinatorial-3D-Shape-Generation" target="_blank">
-                Combinatorial 3D Shape Generation via Sequential Assembly</a>
+              <a href="https://github.com/WU-CVGL/USB-NeRF" target="_blank">
+                USB-NeRF: Unrolling Shutter Bundle Adjusted Neural Radiance Fields</a>
             </li>
 
           </ul>
