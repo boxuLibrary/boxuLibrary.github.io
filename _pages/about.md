@@ -104,12 +104,12 @@ Featured Works
 Visual-Inertial Initialization" style="width: 350px; height: auto; margin-right: 20px;">
 
   <div>
-    <h3 style="margin: 0;"><a href="projects/DRTVIO/" style="text-decoration: none;">A Rotation-Translation-Decoupled Solution for Robust and Efficient
+    <h3 style="margin: 0;"><a href="" style="text-decoration: none;">A Rotation-Translation-Decoupled Solution for Robust and Efficient
 Visual-Inertial Initialization</a></h3>
     <p style="margin: 5px 0;">
-      <a href="https://chaneyddtt.github.io/">Yijia He*</a>,
+      <a href="https://scholar.google.com/citations?user=_0lKGnkAAAAJ&hl=en">Yijia He*</a>,
       <a href="https://boxuLibrary.github.io/"><strong>Bo Xu</strong>*</a>,
-      <a href="https://hlinchen.github.io/">Zhanpeng Ouyang</a>,
+      Zhanpeng Ouyang,
       <a href="https://scholar.google.com.sg/citations?hl=zh-CN&user=Mq89JAcAAAAJ">Hongdong Li</a>
       <br>
       CVPR, 2023<br>
@@ -147,10 +147,10 @@ Visual-Inertial Initialization</a></h3>
     <h3 style="margin: 0;"><a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Liu_Learning_Part_Segmentation_Through_Unsupervised_Domain_Adaptation_From_Synthetic_Vehicles_CVPR_2022_paper.pdf" style="text-decoration: none;">PVI-DSO: Leveraging Planar Regularities for Direct Sparse Visual-Inertial Odometry</a></h3>
     <p style="margin: 5px 0;">
       <a href="https://boxuLibrary.github.io/"><strong>Bo Xu</strong></a>,
-      <a href="">Xin Li</a>,
-      <a href="">Jingrong Wang</a>,
-      <a href="">Chau Yue</a>,
-      <a href="">Jiancheng Li</a>,
+      <a href="https://lixin97.github.io/">Xin Li</a>,         
+      Jingrong Wang,
+      Chau Yue,
+      Jiancheng Li,
       <br>
       IEEE Sensors Journal<br>
        <a href="https://github.com/boxuLibrary/PVI-DSO-SIM" style="text-decoration: none;">[Code]</a>
@@ -170,7 +170,7 @@ Visual-Inertial Initialization</a></h3>
     <p style="margin: 5px 0;">
       <a href="https://boxuLibrary.github.io/"><strong>Bo Xu</strong></a>,
       Peng Wang,
-      Yijia He,
+      <a href="https://scholar.google.com/citations?user=_0lKGnkAAAAJ&hl=en"><strong>Yijia He</strong></a>,
       Yu Chen,
       Yongnan Chen,
       Ming Zhou,
@@ -191,7 +191,7 @@ Other Publications / Preprints
 
 - Yu Chen, **Bo Xu**, Bin Wang, Jiaming Na, Pei Yang [GNSS Reconstrainted Visual–Inertial Odometry System Using Factor Graphs](https://ieeexplore.ieee.org/document/10016469). IEEE Geoscience and Remote Sensing Letters.
 
-- Jingrong Wang, Jingnan Liu, Shoujian Zhang, **Bo Xu**, Yarong Luo and Ronghe Jin [Sky-view images aided NLOS detection and suppression for tightly coupled GNSS/INS system in urban canyon areas](). Measurement Science and Technology.
+- Jingrong Wang, Jingnan Liu, Shoujian Zhang, **Bo Xu**, Yarong Luo and Ronghe Jin [Sky-view images aided NLOS detection and suppression for tightly coupled GNSS/INS system in urban canyon areas](https://iopscience.iop.org/article/10.1088/1361-6501/ad087f). Measurement Science and Technology.
 
 - **Bo Xu**, Shoujian Zhang, Jingrong Wang, Jiancheng Li [An innovation-based cycle-slip, multipath
 estimation, detection and mitigation method for
