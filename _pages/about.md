@@ -80,7 +80,7 @@ Featured Works
 
 
 <div style="display: flex; align-items: center; margin-bottom: 40px;">
-  <img src="images/URS-NeRF1.gif" alt="URS-NeRF: Unordered Rolling Shutter Bundle Adjustment for Neural Radiance Fields" style="width: 350px; height: auto; margin-right: 20px;">
+  <img src="images/URS-NeRF2.gif" alt="URS-NeRF: Unordered Rolling Shutter Bundle Adjustment for Neural Radiance Fields" style="width: 350px; height: auto; margin-right: 20px;">
 
   <div>
     <h3 style="margin: 0;"><a href="projects/URS-NeRF/" style="text-decoration: none;">URS-NeRF: Unordered Rolling Shutter Bundle Adjustment for Neural Radiance Fields</a></h3>
