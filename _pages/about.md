@@ -85,10 +85,10 @@ Featured Works
   <div>
     <h3 style="margin: 0;"><a href="projects/URS-NeRF/" style="text-decoration: none;">URS-NeRF: Unordered Rolling Shutter Bundle Adjustment for Neural Radiance Fields</a></h3>
     <p style="margin: 10px 0;">
-      <a href="https://boxuLibrary.github.io/"><strong>Bo Xu</strong></a>,,
-      Ziao Liu,
-      <a href="">Mengqi Guo</a>,
-      Jiancheng Li,
+     <strong>Bo Xu</strong>,
+      <a href="">Ziao Liu</a>,
+      <a href="https://dreamguo.github.io/">Mengqi Guo</a>,
+      <a href="">Jiancheng Li</a>,
       <a href="https://www.comp.nus.edu.sg/~leegh/">Gim Hee Lee</a>
       <br>
       ECCV, 2024<br>
@@ -108,8 +108,8 @@ Visual-Inertial Initialization" style="width: 350px; height: auto; margin-right:
 Visual-Inertial Initialization</a></h3>
     <p style="margin: 5px 0;">
       <a href="https://scholar.google.com/citations?user=_0lKGnkAAAAJ&hl=en">Yijia He*</a>,
-      <a href="https://boxuLibrary.github.io/"><strong>Bo Xu</strong>*</a>,
-      Zhanpeng Ouyang,
+      <strong>Bo Xu</strong>*,
+      <a href="">Zhanpeng Ouyang</a>,
       <a href="https://scholar.google.com.sg/citations?hl=zh-CN&user=Mq89JAcAAAAJ">Hongdong Li</a>
       <br>
       CVPR, 2023<br>
@@ -126,10 +126,10 @@ Visual-Inertial Initialization</a></h3>
   <div>
     <h3 style="margin: 0;"><a href="https://link.springer.com/article/10.1007/s10291-023-01396-7" style="text-decoration: none;">A unified cycle-slip, multipath estimation, detection and mitigation method for VIO-aided PPP in urban environments</a></h3>
     <p style="margin: 5px 0;">
-      <a href="https://boxuLibrary.github.io/"><strong>Bo Xu</strong></a>,
-      Shoujian Zhang,
-      Kaifa Kuang,
-      Xingxing Li,
+      <strong>Bo Xu</strong>,
+      <a href="">Shoujian Zhang</a>,
+      <a href="">Kaifa Kuang</a>,
+      <a href="">Xingxing Li</a>,
       <br>
       GPS Solutions<br>
       <!-- <a href="https://hlinchen.github.io/projects/VCR-GauS/" style="text-decoration: none;">[Project Page]</a> -->
@@ -146,11 +146,11 @@ Visual-Inertial Initialization</a></h3>
   <div>
     <h3 style="margin: 0;"><a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Liu_Learning_Part_Segmentation_Through_Unsupervised_Domain_Adaptation_From_Synthetic_Vehicles_CVPR_2022_paper.pdf" style="text-decoration: none;">PVI-DSO: Leveraging Planar Regularities for Direct Sparse Visual-Inertial Odometry</a></h3>
     <p style="margin: 5px 0;">
-      <a href="https://boxuLibrary.github.io/"><strong>Bo Xu</strong></a>,
-      <a href="https://lixin97.github.io/">Xin Li</a>,         
-      Jingrong Wang,
-      Chau Yue,
-      Jiancheng Li,
+      <strong>Bo Xu</strong>,
+      <a href="https://lixin97.github.io/">Xin Li</a>,    
+      <a href=""> Jingrong Wang</a>,  
+      <a href=""> Chau Yue</a>,  
+      <a href=""> Jiancheng Li</a>,       
       <br>
       IEEE Sensors Journal<br>
        <a href="https://github.com/boxuLibrary/PVI-DSO-SIM" style="text-decoration: none;">[Code]</a>
@@ -168,12 +168,12 @@ Visual-Inertial Initialization</a></h3>
   <div>
     <h3 style="margin: 0;"><a href="https://arxiv.org/abs/2105.04064" style="text-decoration: none;">Leveraging Structural Information to Improve Point Line Visual-Inertial Odometry</a></h3>
     <p style="margin: 5px 0;">
-      <a href="https://boxuLibrary.github.io/"><strong>Bo Xu</strong></a>,
-      Peng Wang,
-      <a href="https://scholar.google.com/citations?user=_0lKGnkAAAAJ&hl=en"><strong>Yijia He</strong></a>,
-      Yu Chen,
-      Yongnan Chen,
-      Ming Zhou,
+      <strong>Bo Xu</strong>,
+      <a href="">Peng Wang</a>,
+      <a href="https://scholar.google.com/citations?user=_0lKGnkAAAAJ&hl=en">Yijia He</a>,
+      <a href="">Yu Chen</a>,
+      <a href="">Yongnan Chen</a>,
+      <a href="">Ming Zhou</a>,
       <br>
       ICRA 2022 & RAL<br>
        <a href="https://github.com/boxuLibrary/Structural-and-Non-structural-line" style="text-decoration: none;">[Code]</a>
