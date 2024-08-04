@@ -189,6 +189,9 @@ Visual-Inertial Initialization</a></h3>
 Other Publications / Preprints
 ------
 
+- Li Yan, Yinghao Zhao, Jicheng Dai, **Bo Xu**, Hong Xie, Yuquan Zhou [Intelligent perception measurement technology of autonomous UAV for unknown environment ](http://xb.chinasmp.com/EN/abstract/abstract13309.shtml). Acta Geodaetica et Cartographica Sinica (测绘学报).
+
+
 - Yu Chen, **Bo Xu**, Bin Wang, Jiaming Na, Pei Yang [GNSS Reconstrainted Visual–Inertial Odometry System Using Factor Graphs](https://ieeexplore.ieee.org/document/10016469). IEEE Geoscience and Remote Sensing Letters.
 
 - Jingrong Wang, Jingnan Liu, Shoujian Zhang, **Bo Xu**, Yarong Luo and Ronghe Jin [Sky-view images aided NLOS detection and suppression for tightly coupled GNSS/INS system in urban canyon areas](https://iopscience.iop.org/article/10.1088/1361-6501/ad087f). Measurement Science and Technology.
