@@ -35,8 +35,9 @@ News
 </style>
 
 <div class="news-container">
-  <p>🚀 <span style="color: red;">[07.2024] One paper <a href="">URS-NeRF</a> is accepted at ECCV 2024!!</span></p>
-  <p>😎 <span style="color: red;">[10.2023] Joined <a href="https://www.comp.nus.edu.sg/~leegh/">CVRP Lab</a> of NUS as a visiting student supervised by Gim Hee Lee!</span></p>
+  <p>🚀 <span style="color: red;">[12.2024] Reached 100+ citations milestone on Google Scholar</span></p>
+  <p>🚀 [07.2024] One paper <a href="">URS-NeRF</a> is accepted at ECCV 2024</span></p>
+  <p>😎 [10.2023] Joined <a href="https://www.comp.nus.edu.sg/~leegh/">CVRP Lab</a> of NUS as a visiting student supervised by Gim Hee Lee!</span></p>
   <!-- <p>🚀 [08.2023] One paper <a href="https://ieeexplore.ieee.org/document/10154545">PVI-DSO</a> is accepted at IEEE Sensors Journal!</p> -->
   <p>🚀 [06.2023] One paper <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/He_A_Rotation-Translation-Decoupled_Solution_for_Robust_and_Efficient_Visual-Inertial_Initialization_CVPR_2023_paper.pdf">DRT-VIO</a> is CVPR 2023!</p>
   <p>🚀 [06.2022] One paper <a href="https://link.springer.com/article/10.1007/s10291-023-01396-7">EDM Method</a> is accepted at GPS Solutions!</p>
@@ -94,7 +95,7 @@ Featured Works
       ECCV, 2024<br>
       <a href="projects/URS-NeRF/" style="text-decoration: none;">[Project Page]</a>
       <a href="https://arxiv.org/pdf/2403.10119" style="text-decoration: none;">[PDF]</a>
-      <a href="" style="text-decoration: none;">[Code]</a>
+      <a href="https://github.com/ZiaoLiuS/URS-NERF" style="text-decoration: none;">[Code]</a>
     </p>
   </div>
 </div>
