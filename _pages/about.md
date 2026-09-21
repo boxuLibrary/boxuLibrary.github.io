@@ -15,7 +15,8 @@ redirect_from:
 
 
 
-I am a third-year Ph.D. candidate in School of Geodesy and Geomatics at <strong>[Wuhan University](https://www.whu.edu.cn/)</strong>. I am very lucky to be supervised by Prof. Jiancheng Li at Wuhan University. My research interests lie in 3D computer vision, Simultaneous Localization and Mapping (SLAM), Global Navigation Satellite System (GNSS) localization. I was a research intern at JingDong (JD.com, Inc). I got my Bechelor's Degree from [China University of Geosciences Beijing](https://www.cugb.edu.cn/) in 2018, and Master's Degree from [Wuhan University](https://www.whu.edu.cn/) supervised by Prof. Jiancheng Li in 2021. 
+I am currently a postdoctoral researcher at the School of Geodesy and Geomatics, <strong>[Wuhan University](https://www.whu.edu.cn/)</strong>, working with Prof. Yibin Yao. My research interests include 3D computer vision, embodied intelligence, multi-sensor fusion, and Global Navigation Satellite System (GNSS) localization. I was also a research intern at JD.com, Inc. I received my Bachelor's degree from [China University of Geosciences (Beijing)](https://www.cugb.edu.cn/) in 2018, and my Master's and Ph.D. degrees from [Wuhan University](https://www.whu.edu.cn/) in 2021 and 2025, respectively, under the supervision of Prof. Jiancheng Li.
+
 
 
 
@@ -35,7 +36,10 @@ News
 </style>
 
 <div class="news-container">
-  <p>🚀 <span style="color: red;">[12.2024] Reached 100+ citations milestone on Google Scholar</span></p>
+  <p>🚀 [09.2026] One paper is accepted by Satellite Navigation!</p>
+  <p>🚀 [04.2026] One paper is accepted at ICLR 2026 as an Oral!</p>
+  <p>🚀 [01.2026] One paper is accepted by IEEE Transactions on Robotics (T-RO)!</p>
+  <p>🚀 [12.2024] Reached 100+ citations milestone on Google Scholar</p>
   <p>🚀 [07.2024] One paper <a href="">URS-NeRF</a> is accepted at ECCV 2024</p>
   <p>😎 [10.2023] Joined <a href="https://www.comp.nus.edu.sg/~leegh/">CVRP Lab</a> of NUS as a visiting student supervised by Gim Hee Lee!</p>
   <!-- <p>🚀 [08.2023] One paper <a href="https://ieeexplore.ieee.org/document/10154545">PVI-DSO</a> is accepted at IEEE Sensors Journal!</p> -->
@@ -79,6 +83,67 @@ News
 Featured Works
 ======
 
+
+<div style="display: flex; align-items: center; margin-bottom: 40px;">
+  <img src="images/cross_epoch_ambiguity_tracking.png" alt="A Cross-epoch Ambiguity Tracking Method for GNSS/INS/Vision Urban Navigation" style="width: 350px; height: auto; margin-right: 20px;">
+
+  <div>
+    <h3 style="margin: 0;">A Cross-epoch Ambiguity Tracking Method for GNSS/INS/Vision Urban Navigation</h3>
+    <p style="margin: 10px 0;">
+      <strong>Bo Xu</strong>,
+      Shoujian Zhang,
+      Yibin Yao,
+      Xingxing Li,
+      Jingrong Wang,
+      Shengyu Li
+      <br>
+      Satellite Navigation, 2026 <strong>(Accepted)</strong>
+    </p>
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 40px;">
+  <img src="https://chenhaijier.github.io/Vid-LLM/static/images/cover.png" alt="Vid-LLM: A Compact Video-based 3D Multimodal LLM with Reconstruction-Reasoning Synergy" style="width: 350px; height: auto; margin-right: 20px;">
+
+  <div>
+    <h3 style="margin: 0;"><a href="https://chenhaijier.github.io/Vid-LLM/" style="text-decoration: none;">Vid-LLM: A Compact Video-based 3D Multimodal LLM with Reconstruction-Reasoning Synergy</a></h3>
+    <p style="margin: 10px 0;">
+      Haijier Chen*,
+      <strong>Bo Xu</strong>*,
+      Shoujian Zhang,
+      Haoze Liu,
+      Jiaxuan Lin,
+      Jingrong Wang
+      <br>
+      ICLR, 2026 <strong>(Oral)</strong><br>
+      <a href="https://chenhaijier.github.io/Vid-LLM/" style="text-decoration: none;">[Project Page]</a>
+      <a href="https://arxiv.org/pdf/2509.24385" style="text-decoration: none;">[PDF]</a>
+      <a href="https://github.com/chenhaijier/Vid-LLM" style="text-decoration: none;">[Code]</a>
+    </p>
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 40px;">
+  <img src="images/drt_vi_ostc_comparison.png" alt="A Rotation-Translation Decoupled Solution for Visual-Inertial Initialization and Online Spatial-Temporal Calibration" style="width: 350px; height: auto; margin-right: 20px;">
+
+  <div>
+    <h3 style="margin: 0;"><a href="https://ieeexplore.ieee.org/document/11353084" style="text-decoration: none;">A Rotation-Translation Decoupled Solution for Visual-Inertial Initialization and Online Spatial-Temporal Calibration</a></h3>
+    <p style="margin: 10px 0;">
+      <strong>Bo Xu</strong>*,
+      Zewen Xu*,
+      Yijia He,
+      Zhanpeng Ouyang,
+      Hao Wei,
+      Yihong Wu,
+      Jiancheng Li,
+      Hongdong Li
+      <br>
+      IEEE Transactions on Robotics (T-RO), 2026<br>
+      <a href="https://ieeexplore.ieee.org/document/11353084" style="text-decoration: none;">[Paper]</a>
+      <a href="https://github.com/BITcats/DRT-VI-OSTC" style="text-decoration: none;">[Code]</a>
+    </p>
+  </div>
+</div>
 
 <div style="display: flex; align-items: center; margin-bottom: 40px;">
   <img src="images/URS-NeRF2.gif" alt="URS-NeRF: Unordered Rolling Shutter Bundle Adjustment for Neural Radiance Fields" style="width: 350px; height: auto; margin-right: 20px;">
@@ -189,6 +254,8 @@ Visual-Inertial Initialization</a></h3>
 
 Other Publications / Preprints
 ------
+
+- Mingyue Liu, Shoujian Zhang, **Bo Xu**, Jingrong Wang, Huizhong Zhu, Xinchao Xu [GNSS/Vision/INS tight integration navigation and positioning method based on feature enhancement in low-light environments](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=d6U3GwoAAAAJ&sortby=pubdate&citation_for_view=d6U3GwoAAAAJ:KlAtU1dfN6UC). Measurement Science and Technology, 2026.
 
 - Li Yan, Yinghao Zhao, Jicheng Dai, **Bo Xu**, Hong Xie, Yuquan Zhou [Intelligent perception measurement technology of autonomous UAV for unknown environment ](http://xb.chinasmp.com/EN/abstract/abstract13309.shtml). Acta Geodaetica et Cartographica Sinica (测绘学报).
 
